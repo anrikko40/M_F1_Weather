@@ -1,1 +1,5 @@
-# M_F1_Weather
+Open IDE
+
+npm i
+
+npm start
