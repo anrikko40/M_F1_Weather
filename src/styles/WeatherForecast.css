@@ -1,0 +1,22 @@
+.forecast-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: 1500px) {
+    .forecast-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto auto;
+      place-items: center;
+      }
+  }  
+
+  @media screen and (max-width: 800px) {
+    .forecast-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto auto;
+      place-items: center;
+      }
+  }  
